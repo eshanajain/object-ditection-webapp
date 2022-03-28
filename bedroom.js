@@ -1,9 +1,9 @@
 Status = "";
-desk_img = "";
+bedroom_img = "";
 objects = [];
 
 function preload(){
-    desk_img  = loadImage("desk.jpg");
+    bedroom_img  = loadImage("bedroom.jpg");
 }
 
 function setup(){
@@ -16,7 +16,7 @@ function setup(){
 function modelLoaded(){
     console.log("Model Loaded!");
     Status = true;
-    object_detector.detect(desk_img,gotResult);
+    object_detector.detect(bedroom_img,gotResult);
 }
 
 function gotResult(error,results){
@@ -28,7 +28,7 @@ function gotResult(error,results){
 }
 
 function draw() {
-    image(desk_img,0,0,640,350);
+    image(bedroom_img,0,0,640,350);
 
     if(status !="")
     {for (i=0; i < objects.length; i++)

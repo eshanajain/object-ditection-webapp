@@ -1,23 +1,20 @@
-body
-{
+body{
     background-position: center;
     background-size: cover;
 }
-
-.heading
-{
-font-size: 23px;
-width: 100%;
-margin: 0px;
-}           
-
-#status , #number_of_objects
-{
-font-size: 18px;
+.heading{
+    width: 100%;
+    font-size: larger;
+    margin-top: 0px;
 }
-
-canvas
-{
-    border-radius: 14px;
-    box-shadow:10px 10px 10px cornflowerblue;
+canvas{
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px darkkhaki;
+}
+a {
+    background:darkmagenta;
+    color: darkolivegreen;
+    margin: 5px 5px;
+    font-size: 30px;
+    float:right;
 }

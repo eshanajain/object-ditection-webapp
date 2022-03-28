@@ -9,11 +9,11 @@ body{
 }
 canvas{
     border-radius: 10px;
-    box-shadow: 10px 10px 10px darkorange;
+    box-shadow: 10px 10px 10px crimson;
 }
 a {
-    background:darkorchid;
-    color: darkred;
+    background: cyan;
+    color: darkblue;
     margin: 5px 5px;
     font-size: 30px;
     float:right;

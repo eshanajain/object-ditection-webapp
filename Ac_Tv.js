@@ -1,9 +1,9 @@
 Status = "";
-desk_img = "";
+Ac_Tv_img = "";
 objects = [];
 
 function preload(){
-    desk_img  = loadImage("desk.jpg");
+    Ac_Tv_img  = loadImage("tv_ac.jpg");
 }
 
 function setup(){
@@ -16,7 +16,7 @@ function setup(){
 function modelLoaded(){
     console.log("Model Loaded!");
     Status = true;
-    object_detector.detect(desk_img,gotResult);
+    object_detector.detect(Ac_Tv_img,gotResult);
 }
 
 function gotResult(error,results){
@@ -28,7 +28,7 @@ function gotResult(error,results){
 }
 
 function draw() {
-    image(desk_img,0,0,640,350);
+    image(Ac_Tv_img,0,0,640,350);
 
     if(status !="")
     {for (i=0; i < objects.length; i++)

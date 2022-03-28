@@ -1,18 +1,11 @@
-body
-{
-    background-size: cover;
-    background-position: center;
+body{
+background-position: center;
+background-size: cover;
 }
 
-canvas
-{
-    box-shadow: 10px 10px 10px grey;
-    border-radius:10px;
-}
-
-h1
-{
-    background-color: cadetblue;
-    color: chartreuse;
-    font-size: 24px;
+a {
+    background: cyan;
+    color: darkblue;
+    margin: 5px 5px;
+    font-size: 30px;
 }
