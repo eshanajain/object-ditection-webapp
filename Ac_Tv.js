@@ -45,16 +45,4 @@ function draw() {
         }
     }
 
-    for (i = 0; i < objects.length; i++)
-    {
-        document.getElementById("status").innerHTML = "Status : Object Detcted";
-
-        fill("#FF0000");
-        percent = floor(objects[i].confidence * 100);
-        text(objects[i].label + " " + percent + "%", objects[i].x, objects[i].y);
-        noFill();
-        stroke("#FF0000");
-        rect(objects[i].x, objects[i].y, objects[i].width, objects[i].height);
-    }
-    
 }
