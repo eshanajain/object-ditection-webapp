@@ -28,10 +28,11 @@ function gotResult(error,results){
 }
 
 function draw() {
-    image(bedroom_img,0,0,640,350);
-
+    
     if(status !="")
-    {for (i=0; i < objects.length; i++)
+    {
+        image(bedroom_img,0,0,640,350);
+        for (i=0; i < objects.length; i++)
         {
             document.getElementById("status").innerHTML = "Status : Object Detected";
 
