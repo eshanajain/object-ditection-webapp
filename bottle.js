@@ -1,6 +1,7 @@
 Status = "";
 bottle_img = "";
 objects = [];
+object_detector = "";
 
 function preload(){
     bottle_img  = loadImage("bottle.jpg");
